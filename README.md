@@ -15,6 +15,8 @@ Pushshift's API is fairly straightforward. For example, if I want the posts from
 
 To help you get started, we have a primer video on how to use the API: https://youtu.be/AcrjEWsMi_E
 
+**NOTE:** Pushshift now limits you to 100 posts per request (no longer the 500 in the screencast).
+
 ---
 
 ### Requirements
