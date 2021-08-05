@@ -36,7 +36,7 @@ To help you get started, we have a primer video on how to use the API: https://y
 - Code must be in at least one clearly commented Jupyter Notebook.
 - A readme/executive summary in markdown.
 - You must submit your slide deck as a PDF.
-- Materials must be submitted by **10:00 AM on Friday, October 23rd**.
+- Materials must be submitted by **9:00 AM on Monday, August 23rd**.
 
 ---
 
