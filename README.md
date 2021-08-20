@@ -3,10 +3,17 @@
 ### Table of Contents
 
 1. [Data Dictionary]
-2. [Problem Statement]
-3. [Preprocessing & Modeling]
-4. [Conclusion and Recommendations]
-5. [Sources]
+2. [Background]
+3. [Problem Statement]
+4. [Preprocessing & Modeling]
+5. [Conclusion and Recommendations]
+6. [Sources]
+
+---
+
+### Background
+
+subreddits: r/MichiganWolverines, r/OhioStateFootball
 
 ---
 
