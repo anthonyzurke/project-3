@@ -13,16 +13,19 @@
 
 ### Background
 
-subreddits: r/MichiganWolverines, r/OhioStateFootball
+subreddits: r/CFB, r/CollegeBasketball
 
 ---
 
 ### Data Dictionary
 |Feature     |Type    |Dataset      |Description              |
 |---         |---     |---          |---                      |
-|subreddit   |int     |df_baseball  |name of subreddit        |
-|title       |object  |df_baseball  |title of subreddit post  |
-|selftext    |object  |df_baseball  |subtext of subreddit     |
+|subreddit   |int     |df_cfb       |name of subreddit        |
+|title       |object  |df_cfb       |title of subreddit post  |
+|selftext    |object  |df_cfb       |subtext of subreddit     |
+|subreddit   |int     |df_bball     |name of subreddit        |
+|title       |object  |df_bball     |title of subreddit post  |
+|selftext    |object  |df_bball     |subtext of subreddit     |
 
 ---
 
