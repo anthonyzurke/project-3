@@ -4,8 +4,8 @@
 
 1. [Problem Statement](#Problem-Statement)
 2. [Data Dictionary](#Data-Dictionary)
-3. [Preprocessing & Modeling](#Preprocessing & Modeling)
-4. [Conclusion and Recommendations](#Conclusion and Recommendations)
+3. [Preprocessing & Modeling](#Preprocessing-&-Modeling)
+4. [Conclusion and Recommendations](#Conclusion-&-Recommendations)
 
 ---
 
@@ -35,7 +35,7 @@ This analysis examined 2,500 posts from both subreddits. Data extraction include
 
 ---
 
-### Conclusion and Recommendations
+### Conclusion & Recommendations
 
 Logistic Regression was able to predict posts with 77% accuracy and the Random Forest Classifier had an accuracy score 78%. the Random Forest Classifier also had a higher cross val score of .81 compared to the Logistic Regression cross val score of .79. 
 
