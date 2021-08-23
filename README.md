@@ -2,10 +2,10 @@
 
 ### Table of Contents
 
-1. [Problem Statement]
-2. [Data Dictionary]
-3. [Preprocessing & Modeling]
-4. [Conclusion and Recommendations]
+1. ['Problem Statement']
+2. ['Data Dictionary']
+3. ['Preprocessing & Modeling']
+4. ['Conclusion and Recommendations']
 
 ---
 
@@ -39,6 +39,6 @@ This analysis examined 2,500 posts from both subreddits. Data extraction include
 
 Logistic Regression was able to predict posts with 77% accuracy and the Random Forest Classifier had an accuracy score 78%. the Random Forest Classifier also had a higher cross val score of .81 compared to the Logistic Regression cross val score of .79. 
 
-I would recommend that sports marketing agency that has partnered with us to use the Random Forest Classifier to properly market towards their target market and to take advantage of the opportunies on recruiting websites. 
+I would recommend that sports marketing agency that has partnered with us to use the Random Forest Classifier to properly market towards their target market and to take advantage of the opportunities on recruiting websites. 
 
 ---
