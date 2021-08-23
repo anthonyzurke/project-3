@@ -2,10 +2,10 @@
 
 ### Table of Contents
 
-1. ['Problem Statement']
-2. ['Data Dictionary']
-3. ['Preprocessing & Modeling']
-4. ['Conclusion and Recommendations']
+1. [Problem Statement](#Problem-Statement)
+2. [Data Dictionary](#Data-Dictionary)
+3. [Preprocessing & Modeling](#Preprocessing & Modeling)
+4. [Conclusion and Recommendations](#Conclusion and Recommendations)
 
 ---
 
