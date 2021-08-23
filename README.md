@@ -2,63 +2,43 @@
 
 ### Table of Contents
 
-1. [Data Dictionary]
-2. [Background]
-3. [Problem Statement]
-4. [Preprocessing & Modeling]
-5. [Conclusion and Recommendations]
-6. [Sources]
-
----
-
-### Background
-
-subreddits: r/CFB, r/CollegeBasketball
-
----
-
-### Data Dictionary
-|Feature     |Type    |Dataset      |Description              |
-|---         |---     |---          |---                      |
-|subreddit   |int     |df_cfb       |name of subreddit        |
-|title       |object  |df_cfb       |title of subreddit post  |
-|selftext    |object  |df_cfb       |subtext of subreddit     |
-|subreddit   |int     |df_bball     |name of subreddit        |
-|title       |object  |df_bball     |title of subreddit post  |
-|selftext    |object  |df_bball     |subtext of subreddit     |
+1. [Problem Statement]
+2. [Data Dictionary]
+3. [Preprocessing & Modeling]
+4. [Conclusion and Recommendations]
 
 ---
 
 ### Problem Statement
 
-- Gather and prepare your data using the `requests` library.
-- **Create and compare two models**. One of these must be a Random Forest classifier, however the other can be a classifier of 
+My company has partnered with a sports marketing agency to expand their market into college athletics. We have generated 2 models, a Logistic Regression Model, and Random Forest Classifier, using posts from r/CFB and r/CollegeBasketball on Reddit. We will gather the data from these models ot distinguish most commonly talked about topics and also, differentiating them to provide the most effective marketing strategies. 
+
+---
+
+### Data Dictionary
+|Feature           |Type    |Dataset            |Description              |
+|---               |---     |---                |---                      |
+|subreddit         |int     |df_cfb & df_bball  |name of subreddit        |
+|title             |object  |df_cfb & df_bball  |title of subreddit post 0: CFB 1: CollegeBasketball  |
+|selftext          |object  |df_cfb & df_bball  |subtext of subreddit     |
+|post              |object  |df                 |title + subtext          |
+|post_length       |int     |df                 |engineered feature       |
+|post_word_count   |int     |df                 |engineered feature       |
+|stemmed_post      |object  |df                 |engineered feature       |
+|lem_post          |object  |df                 |engineered feature       |
 
 ---
 
 ### Preprocessing & Modeling
 
-- Code must be in at least one clearly commented Jupyter Notebook.
-- A readme/executive summary in markdown.
-- You must submit your slide deck as a PDF.
-- Materials must be submitted by **9:00 AM on Monday, August 23rd**.
+This analysis examined 2,500 posts from both subreddits. Data extraction included scraping Reddit for the data. Data cleaning included dropping duplicated rows and null values. Hyperlinks and outliers were cleaned and dropped, respectfully. Using CountVectorizer I was able to identify the top 15 most common words used in each subreddit. To end the analysis the models used were Logistic Regression and Random Forest Classifier to determine with model would be more successful in predicting posts from the subreddits.
 
 ---
 
 ### Conclusion and Recommendations
 
-**Problem Statement**
-- Is it clear what the goal of the project is?
-- What type of model will be developed?
-- How will success be evaluated?### Rubric
+Logistic Regression was able to predict posts with 77% accuracy and the Random Forest Classifier had an accuracy score 78%. the Random Forest Classifier also had a higher cross val score of .81 compared to the Logistic Regression cross val score of .79. 
 
----
-
-### Sources
-
-**Problem Statement**
-- Is it clear what the goal of the project is?
-- What type of model will be developed?
-- How will success be evaluated?
+I would recommend that sports marketing agency that has partnered with us to use the Random Forest Classifier to properly market towards their target market and to take advantage of the opportunies on recruiting websites. 
 
 ---
