@@ -4,8 +4,8 @@
 
 1. [Problem Statement](#Problem-Statement)
 2. [Data Dictionary](#Data-Dictionary)
-3. [Preprocessing & Modeling](#Preprocessing-&-Modeling)
-4. [Conclusion and Recommendations](#Conclusion-&-Recommendations)
+3. [Preprocessing & Modeling](#Preprocessing-and-Modeling)
+4. [Conclusion and Recommendations](#Conclusion-and-Recommendations)
 
 ---
 
