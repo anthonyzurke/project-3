@@ -11,7 +11,7 @@
 
 ### Problem Statement
 
-My company has partnered with a sports marketing agency to expand their market into college athletics. We have generated 2 models, a Logistic Regression Model, and Random Forest Classifier, using posts from r/CFB and r/CollegeBasketball on Reddit. We will gather the data from these models ot distinguish most commonly talked about topics and also, differentiating them to provide the most effective marketing strategies. 
+I have partnered with a sports marketing agency to expand their market into college athletics. I  have generated 2 models, a Logistic Regression Model, and Random Forest Classifier, using posts from r/CFB and r/CollegeBasketball on Reddit.  These will be used to gather data from these models to distinguish most commonly talked about topics and also, differentiating them to provide the most effective marketing strategies. 
 
 ---
 
