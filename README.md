@@ -4,7 +4,7 @@
 
 1. [Problem Statement](#Problem-Statement)
 2. [Data Dictionary](#Data-Dictionary)
-3. [Preprocessing & Modeling](#Preprocessing-and-Modeling)
+3. [Analysis & Modeling](#Analysis-and-Modeling)
 4. [Conclusion and Recommendations](#Conclusion-and-Recommendations)
 
 ---
@@ -29,7 +29,7 @@ I have partnered with a sports marketing agency to expand their market into coll
 
 ---
 
-### Preprocessing & Modeling
+### Analysis & Modeling
 
 This analysis examined 2,500 posts from both subreddits. Data extraction included scraping Reddit for the data. Data cleaning included dropping duplicated rows and null values. Hyperlinks and outliers were cleaned and dropped, respectfully. Using CountVectorizer I was able to identify the top 15 most common words used in each subreddit. To end the analysis the models used were Logistic Regression and Random Forest Classifier to determine with model would be more successful in predicting posts from the subreddits.
 
