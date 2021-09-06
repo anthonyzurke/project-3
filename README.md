@@ -6,6 +6,7 @@
 2. [Data Dictionary](#Data-Dictionary)
 3. [Analysis & Modeling](#Analysis-and-Modeling)
 4. [Conclusion and Recommendations](#Conclusion-and-Recommendations)
+5. [Datasets](#Datasets)
 
 ---
 
@@ -37,8 +38,14 @@ This analysis examined 2,500 posts from both subreddits. Data extraction include
 
 ### Conclusion & Recommendations
 
-Logistic Regression was able to predict posts with 77% accuracy and the Random Forest Classifier had an accuracy score 78%. the Random Forest Classifier also had a higher cross val score of .81 compared to the Logistic Regression cross val score of .79. 
+Logistic Regression was able to predict posts with 80.3% accuracy and the Random Forest Classifier had an accuracy score 81%. the Random Forest Classifier also had a slightly higher cross val score of .84 compared to the Logistic Regression cross val score of .82. 
 
-I would recommend that sports marketing agency that has partnered with us to use the Random Forest Classifier to properly market towards their target market and to take advantage of the opportunities on recruiting websites. 
+I would recommend that sports marketing agency that has partnered with us to use the Random Forest Classifier to properly market towards their target market and to take advantage of the opportunities on recruiting websites.
 
 ---
+
+### Datasets
+
+* [subreddit_cfb.csv]('../data/subreddit_cfb.csv'): r/CFB posts
+* [subreddit_bball.csv]('../data/subreddit_bball.csv'): r/CollegeBasketball posts
+* [cfb_cbball.csv]('../data/cfb_cbball.csv'): subreddit posts combined
